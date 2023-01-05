@@ -3,4 +3,4 @@ from odoo import models, fields, api
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
-    plegado = fields.Boolean(string="Plegado", default=True)
+    empaque = fields.Selection(string="Empaque",selection=[('Plegado','P'),('Desplegado','D')])
