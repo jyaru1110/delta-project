@@ -10,7 +10,8 @@
     'version' : '0.1',
     'depends' : ['sale','stock'],
     'data':[
-        'views/vista_sale.xml'
+        'views/vista_sale.xml',
+        'views/vista_users.xml'
     ],
     
     'demo' : [

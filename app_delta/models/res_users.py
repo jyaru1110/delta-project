@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+from odoo import models, fields, api
+
+class ResUsers(models.Model):
+    _inherit = 'res.users'
+    prefijo = fields.Text(string='Prefijo para folio de ventas')
+    
